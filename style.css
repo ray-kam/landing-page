@@ -66,6 +66,57 @@ a {
     justify-content: center;
 }
 
-img {
-    max-width: 50%;
+.body-right > img {
+    width: 50%;
+}
+
+/* info */
+
+.info {
+    padding: 8vh;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8vh;
+}
+
+.cards-container, .text-container{
+    display: flex;
+    margin: 0 20vh;
+}
+
+.card > img {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    padding: 0 2vh;
+
+}
+
+.text-container > p {
+    text-align: center;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 8vh 25vh;
+}
+
+.author {
+    font-size: 18px;
+    display: flex;
+    justify-content: right;
 }
