@@ -34,7 +34,7 @@ a {
     margin-right: 15vh;
 }
 
-/* body */
+/* hero */
 
 .hero {
     font-size: 48px;
@@ -107,6 +107,8 @@ a {
 
 .card img {
     max-width: 200px;
+    border: solid #3882f6 4px;
+    border-radius: 1em;
 }
 
 .card {
