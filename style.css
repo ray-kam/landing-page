@@ -65,24 +65,22 @@ a {
 .body {
     display: flex;
     justify-content: center;
-    padding: 0px 15vh 15vh;
-}
-
-
-.body-right, .body-left {
-    display: flex;
-}
-
-.body-right > img {
-    width: 60%;
-}
-
-.body-right {
-    /* justify-content: right; */
-}
+    align-items: center;
+    padding: 0 15vh 15vh;
+}   
 
 .body-left {
+    display: flex;
+    flex-basis: 420px;
     flex-direction: column;
+    justify-content: lefts;
+    text-align: left;
+    margin-right: 60px;
+}
+
+.body-right img {
+    width: 600px;
+    height: 410px;
 }
 
 /* info */
@@ -102,20 +100,20 @@ a {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin: 0 20vh;
 }
 
-.card > img {
-    max-width: 300px;
+.card img {
+    max-width: 200px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 250px;
     padding: 0 2vh;
 
 }
